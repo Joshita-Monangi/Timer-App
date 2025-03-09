@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.timer-display {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.mode-buttons .btn,
+.control-buttons .btn {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+.mode-buttons .btn:hover,
+.control-buttons .btn:hover {
+    opacity: 0.8;
+}
+
+#long-break {
+    color: white;
+    background-color: #c034eb;
+}
